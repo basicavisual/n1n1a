@@ -43,7 +43,7 @@ a:visited {
   display: block;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
-  padding: 1em 0 1em 9.8em;
+  padding: 1em 0 1em 10em;
   position: relative;
 }
 
@@ -51,7 +51,7 @@ a:visited {
   display: inline;
   text-decoration: none;
   font-family: 'Fira Sans', sans-serif;
-  margin-left: 2em;
+  margin-left: 1.6em;
   padding: .5em;
   color: #4d4d4d;
   transition: .5s ease;
@@ -74,7 +74,7 @@ a:visited {
 }
 
 .last-articles {
-  width: 75%;
+  width: 65%;
   margin: auto;
 }
 .article-pic-sm, .article-title, .article-date {
@@ -84,7 +84,7 @@ a:visited {
   clear: both;
   margin-top: 0;
   margin-bottom: 0;
-  width: 17em;
+  width: 15em;
   height: auto;
 }
 
@@ -115,6 +115,63 @@ article {
   width: 100%;
   height: auto;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .carrousel {
+    width: 80%;
+  }
+  .last-articles {
+    width: 80%;
+  }
+  .article-pic-sm {
+    width: 12em;
+    height: auto;
+  }
+  .article-title, .article-date  {
+    font-size: .8em;
+  }
+
+  .all {
+    width: 80%;
+  }
+
+  article {
+    width: 80%;
+  }
+
+  .article-title-display {
+    font-size: 2.3em;
+  }
+
+  .article-pic-display {
+    width:
+  }
+
+}
+
+
+@media only screen and (max-width: 695px) {
+  .logo {
+    height: 8em;
+    margin: .5em 0 .5em .5em;
+    position: relative;
+    vertical-align: middle;
+  }
+  .header-title {
+    font-size: 3.5em;
+    margin: auto;
+    vertical-align: middle;
+  }
+  .navbar {
+    padding: .5em .2em .5em .2em;
+  }
+  .navbar a {
+    padding: 0 .5em 0 0;
+    margin: .6em;
+  }
+}
+
 
 /*Grid layout*/
 
